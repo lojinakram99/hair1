@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LAVEN Haircare | Luxury botanical hair care</title>
+  <meta name="description" content="LAVEN Haircare: botanical shampoo, conditioner, leave-in conditioner and hair oil, made with plant-based ingredients.">
+  <meta property="og:title" content="LAVEN Haircare">
+  <meta property="og:description" content="Luxury botanical hair care.">
+  <meta property="og:image" content="images/shampoo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="LAVEN Haircare, home">
+    <span class="brand__name">LAVEN</span>
+    <span class="brand__sub">Haircare</span>
+  </a>
+  <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+    <span></span><span></span>
+  </button>
+  <nav class="nav__links" id="navLinks" aria-label="Main">
+    <a href="#collection">Collection</a>
+    <a href="#story">Our story</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__media">
+      <img src="images/shampoo.jpg" alt="LAVEN Nourishing Shampoo in a frosted green bottle with a gold pump, on a stone slab" width="1376" height="768" fetchpriority="high">
+    </div>
+    <div class="hero__copy">
+      <h1>Botanical care, <br>beautifully simple.</h1>
+      <p>Plant-based hair care in frosted glass and brushed gold. Made for hair that feels nourished from the first wash.</p>
+      <a class="btn" href="#collection">Discover the collection</a>
+    </div>
+  </section>
+
+  <!-- Collection -->
+  <section class="section section--ivory" id="collection">
+    <div class="container">
+      <header class="section-head">
+        <h2>The collection</h2>
+        <p>Four essentials, one routine. Each formula is built around gentle, plant-based ingredients.</p>
+      </header>
+
+      <div class="products">
+        <article class="product reveal">
+          <figure class="product__media">
+            <img src="images/shampoo.jpg" alt="LAVEN Nourishing Shampoo" width="1376" height="768" loading="lazy">
+          </figure>
+          <h3>Nourishing Shampoo</h3>
+          <p>A soft-lathering cleanse that removes buildup and leaves hair clean and supple.</p>
+        </article>
+
+        <article class="product reveal">
+          <figure class="product__media">
+            <img src="images/conditioner.jpg" alt="LAVEN Hydrating Conditioner" width="1376" height="768" loading="lazy">
+          </figure>
+          <h3>Hydrating Conditioner</h3>
+          <p>Deep moisture that detangles and smooths from the mid-lengths to the ends.</p>
+        </article>
+
+        <article class="product reveal">
+          <figure class="product__media">
+            <img src="images/leave-in.jpg" alt="LAVEN Leave-In Conditioner" width="1376" height="768" loading="lazy">
+          </figure>
+          <h3>Leave-In Conditioner</h3>
+          <p>A lightweight cream that tames frizz and protects hair between washes.</p>
+        </article>
+
+        <article class="product reveal">
+          <figure class="product__media">
+            <img src="images/hair-oil.jpg" alt="LAVEN Botanical Hair Oil" width="1376" height="768" loading="lazy">
+          </figure>
+          <h3>Botanical Hair Oil</h3>
+          <p>A few drops to seal in moisture and finish with a natural, healthy shine.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section class="section section--beige" id="story">
+    <div class="container split">
+      <div class="split__text">
+        <h2>Rooted in nature, refined for you.</h2>
+        <p>LAVEN began with a simple idea: hair care should feel as calm as a walk through a garden. We build every formula around botanical ingredients and keep the rest to a minimum.</p>
+        <p>The result is a small collection that does its job well, wrapped in packaging made to sit beautifully on your shelf.</p>
+      </div>
+      <figure class="split__media reveal">
+        <img src="images/leave-in.jpg" alt="LAVEN Leave-In Conditioner tube beside dried botanical leaves" width="1376" height="768" loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section section--forest" id="benefits">
+    <div class="container">
+      <header class="section-head">
+        <h2>Why LAVEN</h2>
+      </header>
+      <div class="features">
+        <div class="feature">
+          <h3>Plant-based formulas</h3>
+          <p>Botanical ingredients at the heart of every product.</p>
+        </div>
+        <div class="feature">
+          <h3>Gentle on the scalp</h3>
+          <p>Thoughtful, balanced cleansing for daily use.</p>
+        </div>
+        <div class="feature">
+          <h3>Visible softness and shine</h3>
+          <p>Hair that feels smooth, hydrated and healthy.</p>
+        </div>
+        <div class="feature">
+          <h3>Considered design</h3>
+          <p>Frosted glass and brushed gold made to be displayed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="container footer__inner">
+    <a class="brand" href="#top" aria-label="LAVEN Haircare, back to top">
+      <span class="brand__name">LAVEN</span>
+      <span class="brand__sub">Haircare</span>
+    </a>
+    <nav class="footer__links" aria-label="Footer">
+      <a href="#collection">Collection</a>
+      <a href="#story">Our story</a>
+      <a href="#benefits">Benefits</a>
+      <a href="mailto:hello@laven-haircare.com">hello@laven-haircare.com</a>
+    </nav>
+    <small>&copy; <span id="year">2026</span> LAVEN Haircare</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
